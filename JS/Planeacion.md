@@ -11,3 +11,9 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * [Jonathan MirCha](http://jonmircha.com)
 * **[@jonmircha](https://twitter.com/jonmircha)**
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
+
+## Clase 1
+
+* Algoritmo para un ToDo List
+* Interfaz HTML necesaria para un ToDo List
+* Traer Proyectos desarrollados en HTML y CSS
