@@ -12,6 +12,12 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * **[@jonmircha](https://twitter.com/jonmircha)**
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
 
+## Archivos de teoria
+
+* [Introducción a JavaScript](./teoria-intro-js.md)
+* [Fundamentos de Programación JavaScript para los Navegadores](./teoria-poo-js.md)
+* [EcmaScript 6](./teoria-es6.md)
+
 ## Clase 1
 
 * Algoritmo para un ToDo List
