@@ -47,3 +47,4 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
   1. Objeto Literal
   1. Clase
 * No se vale usar Seres Vivos
+* Leer los temas de DOM, Eventos y BOM del archivo **teoria-poo-js.md** que esta en el repositorio
