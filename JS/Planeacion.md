@@ -20,6 +20,30 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## Clase 1
 
-* Algoritmo para un ToDo List
+### Temas
+
+* Introducción a la Programación
+* Introducción a JS
+
+### Actividades
+
 * Interfaz HTML necesaria para un ToDo List
 * Traer Proyectos desarrollados en HTML y CSS
+* Algoritmo para un ToDo List
+
+## Clase 2
+
+### Temas
+
+* Gramatica JS
+* Las buenas partes de JS
+* Funciones Anónimas Auto Invocadas (Patrón de Diseño)
+* Programación Orientada a Objetos (Concepto y aplicado a JS)
+* Un poco de interacción con HTML (DOM)
+
+### Actividades
+
+* Programar un objeto del mundo real mínimo con 3 métodos y 3 atributos como:
+  1. Objeto Literal
+  1. Clase
+* No se vale usar Seres Vivos
