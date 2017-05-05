@@ -1,10 +1,17 @@
 :root {
   --header-bg: rgba(23, 18, 38, .9);
   --header-color: #FFF;
+  --header-height: 4rem;
   --header-container-width: 1200px;
+  --panel-width-mobile: 100%;
+  --panel-width-desktop: 90%;
+  --hamburger-color: #0096D9;
+  --logo-url: url('../img/marathons-logo.svg');
   --logo-top: 0;
   --logo-width-mobile: 4rem;
   --logo-width-desktop: 10%;
+  --logo-height: 4rem;
+  --logo-bg-size: 3.5rem;
 }
 
 html { 
@@ -29,6 +36,7 @@ body { overflow-x: hidden; }
   left: 0;
   z-index: 997;
   width: 100%;
+  height: var(--header-height);
   background-color: var(--header-bg);
   color: var(--header-color);
 }
@@ -41,5 +49,19 @@ body { overflow-x: hidden; }
 .Logo {
   position: fixed;
   top: var(--logo-top);
+  /*left: 0;*/
+  /*right: 0;*/
+  left: calc( 50% - (var(--logo-width-mobile) / 2) );
+  z-index: 998;
+}
 
+.Logo-link {
+  display: block;
+  width: var(--logo-width-mobile);
+  height: var(--logo-height);
+  text-indent: -9999px;
+  background-image: url('../img/marathons-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: var(--logo-bg-size);
 }
