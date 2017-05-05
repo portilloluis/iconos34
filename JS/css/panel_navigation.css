@@ -1,0 +1,45 @@
+:root {
+  --header-bg: rgba(23, 18, 38, .9);
+  --header-color: #FFF;
+  --header-container-width: 1200px;
+  --logo-top: 0;
+  --logo-width-mobile: 4rem;
+  --logo-width-desktop: 10%;
+}
+
+html { 
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before { 
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body { overflow-x: hidden; }
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 997;
+  width: 100%;
+  background-color: var(--header-bg);
+  color: var(--header-color);
+}
+
+.Header-container {
+  margin: auto;
+  max-width: var(--header-container-width);
+}
+
+.Logo {
+  position: fixed;
+  top: var(--logo-top);
+
+}
