@@ -30,6 +30,15 @@ html {
 
 body { overflow-x: hidden; }
 
+.hamburger:focus {
+  outline: 0;
+  border: 0;
+}
+
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before { background-color: var(--hamburger-color) }
+
 .Header {
   position: fixed;
   top: 0;
@@ -65,3 +74,53 @@ body { overflow-x: hidden; }
   background-position: center;
   background-size: var(--logo-bg-size);
 }
+
+.Panel {
+  position: fixed;
+  z-index: 996;
+  bottom: 0;
+  /*top: var(--header-height);*/
+  left: 0;
+  width: var(--panel-width-mobile);
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(100vh);
+  /*transform: translateY(-100vh);*/
+  transition: all .3s ease-out;
+}
+
+.Panel.is-active {
+  max-height: 100vh;
+  overflow-y: hidden;
+  transform: translateY(0);
+}
+
+.Panel-button {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  /*left: 0;*/
+  right: 0;
+}
+
+.Menu {
+  width: 100vw;
+  background-color: var(--header-bg);
+}
+
+.Menu-listItem {
+  list-style-type: none;
+  border-top: thin solid var(--hamburger-color);
+  text-align: center;
+}
+
+.Menu-item {
+
+}
+
+.Menu-link {
+
+}
+
+
+
