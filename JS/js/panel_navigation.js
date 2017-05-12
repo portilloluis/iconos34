@@ -2,13 +2,24 @@
 ((d, w) => {
   const panel = d.querySelector('.Panel'),
     panelBtn = d.querySelector('.Panel-button'),
-    hamburger = d.querySelector('.hamburger')
+    hamburger = d.querySelector('.hamburger'),
+    mq = w.matchMedia('(min-width: 64em)')
+  
+  function closePanel (mq) {
+    if (mq.matches) {
+      panel.classList.remove('is-active')
+      hamburger.classList.remove('is-active')
+    }
+  }
 
   panelBtn.addEventListener('click', (e) => {
     //console.log(e)
     panel.classList.toggle('is-active')
     hamburger.classList.toggle('is-active')
   })
+
+  mq.addListener(closePanel)
+  closePanel(mq)
 })(document, window);
 
 /*
